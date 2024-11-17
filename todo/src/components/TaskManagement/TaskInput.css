@@ -1,0 +1,36 @@
+/* Container for task input and button */
+.task-input-container {
+    display: flex;
+    flex-direction: column; /* Stack input and button vertically */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Styling for the task input field */
+.task-input-field {
+    width: -webkit-fill-available; /* Takes the available width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    background-color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Styling for the Add Task button */
+.add-task-btn {
+    color: black;
+    border: 1px solid black;
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.add-task-btn:hover {
+    background-color: #e0e0e0;
+}
